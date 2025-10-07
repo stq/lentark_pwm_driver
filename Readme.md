@@ -2,6 +2,8 @@
 
 Program for controlling Lentark PP504F0A-02W30 PWM driver via Digispark ATtiny85 with advanced sensor data filtering.
 
+**WIP** Pending implementation: duty-cycle limit for low-voltage battery to avoid strain on DC-DC converter
+
 ## 🔌 Hardware Configuration
 
 ### Main Components
