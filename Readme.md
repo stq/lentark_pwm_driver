@@ -4,6 +4,8 @@ Program for controlling Lentark PP504F0A-02W30 PWM driver via Digispark ATtiny85
 
 **WIP** Pending implementation: duty-cycle limit for low-voltage battery to avoid strain on DC-DC converter
 
+**TODOs** Use native PWM port of attiny85 instead of lentark. Was not done initially because it's a bit tricky to control duty on ~500 hz. Lentark does is way better and code is more clean for only +5ma more drawn, otherwise there's no reason to use it.
+
 ## 🔌 Hardware Configuration
 
 ### Main Components
